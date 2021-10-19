@@ -1,0 +1,7 @@
+docker logs [nombre-contenedor]
+sudo systemctl start jenkins
+sudo systemctl stop jenkins
+sudo systemctl restart jenkins
+sudo systemctl status jenkins
+docker exec -ti [nombre-contenedor] bash            --> entrar al contenedor
+docker cp script.sh  jenkins:/opt                   --> copiar archivos al contenedor
